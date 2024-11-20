@@ -1,0 +1,30 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Demo2App2" parent="Theme.MaterialComponents.DayNight.Bridge">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/clementine</item>
+        <item name="colorPrimaryVariant">@color/blue</item>
+        <item name="colorOnPrimary">@color/darkwhite</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/tiramisu</item>
+        <item name="colorSecondaryVariant">@color/clementine</item>
+        <item name="colorOnSecondary">@color/darkblue</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">@color/pink</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="Theme.Demo2App.NoActionBar2">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="BaseTheme.Orange" parent = "Theme.Demo2App2">
+        <item name="ThemeDemoApp">@color/pink</item>
+        <item name="ChatBubbleTextColor">@color/clementine</item>
+    </style>
+
+    <style name="Theme.Demo2App.AppBarOverlay2" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.Demo2App.PopupOverlay2" parent="ThemeOverlay.AppCompat.Light" />
+</resources>
